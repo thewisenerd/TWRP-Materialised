@@ -310,13 +310,13 @@
 		<!--theme settings-->
 		<variable name="aromafm" value="0" persist="1" />
 		<variable name="show_cpu_temp" value="0" persist="1" />
-		<variable name="center_clock" value="0" persist="1" />
+		<variable name="center_clock" value="1" persist="1" />
 		<variable name="dialog_hide_folder" value="0" persist="1" />
 		<variable name="dialog_hide_color" value="0" persist="1" />
 		<variable name="dialog_context" value="none" persist="1" />
 		<variable name="list_font" value="big" persist="1" />
 		<variable name="bookmark" value="0" persist="1" />
-		<variable name="navbar_sams" value="0" persist="1" />
+		<variable name="navbar_sams" value="1" persist="1" />
 		<variable name="menu_btn_solid" value="0" persist="1" />
 		<variable name="hl_color" value="Light Blue" persist="1" />
 		<variable name="location_install" value="/sdcard/Download" persist="1" />
@@ -495,7 +495,7 @@
 		<variable name="db_text3a_y" value="245" />
 		<variable name="db_checkbox_y" value="253" />
 		<variable name="fileselector_width" value="307" />
-		<variable name="fileselector_install_height" value="324" />
+		<variable name="fileselector_install_height" value="360" />
 		<variable name="fileselector_part_height" value="158" />
 		<variable name="fileselector_wipe_height" value="135" />
 		<variable name="fileselector_mount_height" value="177" />
@@ -2409,6 +2409,7 @@
 				<text>Select the theme you want to apply</text>
 			</object>
 
+			<!--
 			<object type="image">
 				<image resource="divider_wide" />
 				<placement x="%center_x%" y="%row_btn_y%" placement="4" />
@@ -2425,6 +2426,7 @@
 					<action function="overlay">dialog_storage</action>
 				</actions>
 			</object>
+		-->
 
 			<object type="action">
 				<actions>
@@ -2591,6 +2593,7 @@
 				<text>%tw_zip_location%</text>
 			</object>
 
+			<!--
 			<object type="image">
 				<image resource="hider_ab_ex" />
 				<placement x="%screen_w%" y="%row0_y%" placement="1" />
@@ -2612,6 +2615,7 @@
 					<action function="overlay">dialog_storage</action>
 				</actions>
 			</object>
+			-->
 
 			<object type="action">
 				<condition var1="tw_filename" op="modified" />
@@ -2771,6 +2775,7 @@
 				<text>%tw_zip_location%</text>
 			</object>
 
+			<!--
 			<object type="image">
 				<image resource="hider_ab_ex" />
 				<placement x="%screen_w%" y="%row0_y%" placement="1" />
@@ -2792,6 +2797,7 @@
 					<action function="overlay">dialog_storage</action>
 				</actions>
 			</object>
+			-->
 
 			<object type="action">
 				<condition var1="tw_filename" op="modified" />
@@ -3466,6 +3472,7 @@
 				<text>%tw_zip_location%</text>
 			</object>
 
+			<!--
 			<object type="image">
 				<image resource="hider_ab_ex" />
 				<placement x="%screen_w%" y="%row0_y%" placement="1" />
@@ -3487,6 +3494,7 @@
 					<action function="overlay">dialog_storage</action>
 				</actions>
 			</object>
+			-->
 
 			<object type="action">
 				<condition var1="tw_filename" op="modified" />
@@ -6267,6 +6275,7 @@
 				<text></text>
 			</object>
 
+			<!--
 			<object type="image">
 				<image resource="divider_wide" />
 				<placement x="%center_x%" y="%row_btn_y%" placement="4" />
@@ -6283,6 +6292,7 @@
 					<action function="overlay">dialog_storage</action>
 				</actions>
 			</object>
+		-->
 
 			<object type="action">
 				<condition var1="tw_restore" op="modified" />
