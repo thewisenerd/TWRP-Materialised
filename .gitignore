@@ -1,0 +1,11 @@
+*.zip
+768_play.zip
+build
+fontfixer
+imgparse
+ORIG_RES
+PORT_RES
+twrp_fonts.py
+ui_fix.xml
+valfix
+xmlparse
