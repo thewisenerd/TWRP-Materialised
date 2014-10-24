@@ -2,7 +2,7 @@
 
 <recovery>
 	<details>
-		<resolution width="800" height="1280" />
+		<resolution width="320" height="480" />
 		<author>z31s1g</author>
 		<title>TWRP Materialised Dark</title>
 		<description>Material Design theme for TWRP recovery</description>
@@ -11,13 +11,13 @@
 
 	<resources>
 
-		<resource name="status" type="font" filename="RobotoRegular.ttf" size="28" fallback="Roboto-Medium-32" />
-		<resource name="caption" type="font" filename="RobotoMedium.ttf" size="24" fallback="Roboto-Regular-24" />
-		<resource name="body1" type="font" filename="RobotoRegular.ttf" size="28" fallback="Roboto-Regular-28" />
-		<resource name="body2" type="font" filename="RobotoMedium.ttf" size="28" fallback="Roboto-Medium-28" />
-		<resource name="subhead" type="font" filename="RobotoRegular.ttf" size="34" fallback="Roboto-Regular-34" />
-		<resource name="menu" type="font" filename="RobotoMedium.ttf" size="28" fallback="Roboto-Medium-28" />
-		<resource name="title" type="font" filename="RobotoRegular.ttf" size="40" fallback="Roboto-Medium-40" />
+		<resource name="status"  type="font" filename="Roboto-Medium.ttf"  size="11" fallback="Roboto-Medium-11" />
+		<resource name="caption" type="font" filename="Roboto-Regular.ttf" size="9"  fallback="Roboto-Regular-9" />
+		<resource name="body1"   type="font" filename="Roboto-Regular.ttf" size="11" fallback="Roboto-Regular-11" />
+		<resource name="body2"   type="font" filename="Roboto-Medium.ttf"  size="11" fallback="Roboto-Medium-11" />
+		<resource name="subhead" type="font" filename="Roboto-Regular.ttf" size="13" fallback="Roboto-Regular-13" />
+		<resource name="menu"    type="font" filename="Roboto-Medium.ttf"  size="11" fallback="Roboto-Medium-11" />
+		<resource name="title"   type="font" filename="Roboto-Medium.ttf"  size="15" fallback="Roboto-Medium-15" />
 
 		<!--resource name="status" type="font" filename="Roboto-Medium-32" />
 		<resource name="caption" type="font" filename="Roboto-Regular-24" />
@@ -324,132 +324,121 @@
 		<variable name="location_addfile" value="/sdcard/Download" persist="1" />
 		<variable name="location_themes" value="/sdcard/Download" persist="1" />
 
-		<variable name="screen_w" value="800" />
-		<variable name="screen_h" value="1280" />
-		<variable name="content_w" value="736" />
+		<variable name="screen_w" value="320" />
+		<variable name="screen_h" value="480" />
+		<variable name="content_w" value="294" />
 		<variable name="indent" value="0" />
-		<variable name="center_x" value="400" />
-		<variable name="col1_x" value="32" />
-		<variable name="col1_x_neg" value="768" />
-		<variable name="col1_x_indent" value="144" />
-		<variable name="col_col_center_x" value="298" />
-		<variable name="col2_x" value="400" />
-		<variable name="version_x" value="12" />
-		<variable name="battery_x" value="640" />
-		<variable name="battery_x_m" value="680" />
-		<variable name="time_x" value="786" />
-		<variable name="status_info_y" value="4" />
-
-		<variable name="ab_back_x" value="8" />
-		<variable name="ab_bc_x" value="104" />
-		<variable name="ab_btn1_x" value="696" />
-		<variable name="ab_btn2_x" value="600" />
-		<variable name="ab_btn3_x" value="504" />
-		<variable name="ab_btn1m_x" value="720" />
-		<variable name="ab_btn2m_x" value="624" />
-		<variable name="ab_btn3m_x" value="528" />
-		<variable name="ab_y" value="56" />
-
-		<variable name="ab_menu_y" value="48" />
-		<variable name="ab_menu_inst_x" value="120" />
-		<variable name="ab_menu_sort_x" value="680" />
-		<variable name="ab_menu_inst_1_y" value="80" />
-		<variable name="ab_menu_inst_2_y" value="176" />
-		<variable name="ab_menu_inst_3_y" value="272" />
-		<variable name="ab_menu_inst_4_y" value="368" />
-		<variable name="ab_menu_inst_5_y" value="464" />
-		<variable name="ab_menu_inst_6_y" value="560" />
-
-		<variable name="btn_float_x" value="648" />
-
-		<variable name="plusdate_x" value="768" />
-
-		<variable name="btn_raised_left_x" value="18" />
-		<variable name="btn_raised_right_x" value="782" />
-
-		<variable name="row0_y" value="160" />
-		<variable name="row0_a_y" value="180" />
-		<variable name="row1_1_y" value="200" />
-		<variable name="row1_1a_y" value="220" />
-		<variable name="row1_2_y" value="240" />
-		<variable name="row1_2a_y" value="260" />
-		<variable name="row1_3_y" value="280" />
-		<variable name="row1_3a_y" value="300" />
-		<variable name="row2_1_y" value="320" />
-		<variable name="row2_1a_y" value="340" />
-		<variable name="row2_2_y" value="360" />
-		<variable name="row2_2a_y" value="380" />
-		<variable name="row2_3_y" value="400" />
-		<variable name="row2_3a_y" value="420" />
-		<variable name="row3_1_y" value="440" />
-		<variable name="row3_1a_y" value="460" />
-		<variable name="row3_2_y" value="480" />
-		<variable name="row3_2a_y" value="500" />
-		<variable name="row3_3_y" value="520" />
-		<variable name="row3_3a_y" value="540" />
-		<variable name="row4_1_y" value="560" />
-		<variable name="row4_1a_y" value="580" />
-		<variable name="row4_2_y" value="600" />
-		<variable name="row4_2a_y" value="620" />
-		<variable name="row4_3_y" value="640" />
-		<variable name="row4_3a_y" value="660" />
-		<variable name="row5_1_y" value="680" />
-		<variable name="row5_1a_y" value="700" />
-		<variable name="row5_2_y" value="720" />
-		<variable name="row5_2a_y" value="740" />
-		<variable name="row5_3_y" value="760" />
-		<variable name="row5_3a_y" value="780" />
-		<variable name="row6_1_y" value="800" />
-		<variable name="row6_1a_y" value="820" />
-		<variable name="row6_2_y" value="840" />
-		<variable name="row6_2a_y" value="860" />
-		<variable name="row6_3_y" value="880" />
-		<variable name="row6_3a_y" value="900" />
-		<variable name="row7_1_y" value="920" />
-		<variable name="row7_1a_y" value="940" />
-		<variable name="row7_2_y" value="960" />
-		<variable name="row7_2a_y" value="980" />
-		<variable name="row7_3_y" value="1000" />
-		<variable name="row7_3a_y" value="1020" />
-		<variable name="row8_1_y" value="1040" />
-		<variable name="row8_1a_y" value="1060" />
-		<variable name="row8_2_y" value="1080" />
-		<variable name="row8_2a_y" value="1100" />
-		<variable name="row8_3_y" value="1120" />
-		<variable name="row8_3a_y" value="1140" />
-		<variable name="row9_1_y" value="1160" />
-		<variable name="row_btn_y" value="1088" />
-		<variable name="row_nav_y" value="1184" />
-		<variable name="row_tz_y" value="256" />
-		<variable name="row_ab_ex_y" value="304" />
-		<variable name="row_ab_ex_list_y" value="223" />
-		<variable name="row_bs_console_y" value="400" />
-
-		<variable name="mb_row1_y" value="190" />
-		<variable name="mb_row2_y" value="310" />
-		<variable name="mb_row3_y" value="430" />
-		<variable name="mb_row4_y" value="550" />
-		<variable name="mb_row5_y" value="670" />
-		<variable name="mb_row6_y" value="790" />
-		<variable name="mb_row7_y" value="910" />
-		<variable name="mb_row8_y" value="1030" />
-		<variable name="mb_row9_y" value="1150" />
-
-		<variable name="bs_row1_y" value="496" />
-		<variable name="bs_row2_y" value="592" />
-		<variable name="bs_row3_y" value="688" />
-		<variable name="bs_row4_y" value="784" />
-		<variable name="bs_row5_y" value="880" />
-		<variable name="bs_row6_y" value="976" />
-		<variable name="bs_row7_y" value="1072" />
-
+		<variable name="center_x" value="160" />
+		<variable name="col1_x" value="13" />
+		<variable name="col1_x_neg" value="307" />
+		<variable name="col1_x_indent" value="58" />
+		<variable name="col_col_center_x" value="119" />
+		<variable name="col2_x" value="160" />
+		<variable name="version_x" value="5" />
+		<variable name="battery_x" value="256" />
+		<variable name="battery_x_m" value="272" />
+		<variable name="time_x" value="314" />
+		<variable name="status_info_y" value="2" />
+		<variable name="ab_back_x" value="3" />
+		<variable name="ab_bc_x" value="42" />
+		<variable name="ab_btn1_x" value="278" />
+		<variable name="ab_btn2_x" value="240" />
+		<variable name="ab_btn3_x" value="202" />
+		<variable name="ab_btn1m_x" value="288" />
+		<variable name="ab_btn2m_x" value="250" />
+		<variable name="ab_btn3m_x" value="211" />
+		<variable name="ab_y" value="21" />
+		<variable name="ab_menu_y" value="18" />
+		<variable name="ab_menu_inst_x" value="48" />
+		<variable name="ab_menu_sort_x" value="272" />
+		<variable name="ab_menu_inst_1_y" value="30" />
+		<variable name="ab_menu_inst_2_y" value="66" />
+		<variable name="ab_menu_inst_3_y" value="102" />
+		<variable name="ab_menu_inst_4_y" value="138" />
+		<variable name="ab_menu_inst_5_y" value="174" />
+		<variable name="ab_menu_inst_6_y" value="210" />
+		<variable name="btn_float_x" value="259" />
+		<variable name="plusdate_x" value="307" />
+		<variable name="btn_raised_left_x" value="7" />
+		<variable name="btn_raised_right_x" value="313" />
+		<variable name="row0_y" value="60" />
+		<variable name="row0_a_y" value="68" />
+		<variable name="row1_1_y" value="75" />
+		<variable name="row1_1a_y" value="83" />
+		<variable name="row1_2_y" value="90" />
+		<variable name="row1_2a_y" value="98" />
+		<variable name="row1_3_y" value="105" />
+		<variable name="row1_3a_y" value="113" />
+		<variable name="row2_1_y" value="120" />
+		<variable name="row2_1a_y" value="128" />
+		<variable name="row2_2_y" value="135" />
+		<variable name="row2_2a_y" value="143" />
+		<variable name="row2_3_y" value="150" />
+		<variable name="row2_3a_y" value="158" />
+		<variable name="row3_1_y" value="165" />
+		<variable name="row3_1a_y" value="173" />
+		<variable name="row3_2_y" value="180" />
+		<variable name="row3_2a_y" value="188" />
+		<variable name="row3_3_y" value="195" />
+		<variable name="row3_3a_y" value="203" />
+		<variable name="row4_1_y" value="210" />
+		<variable name="row4_1a_y" value="218" />
+		<variable name="row4_2_y" value="225" />
+		<variable name="row4_2a_y" value="233" />
+		<variable name="row4_3_y" value="240" />
+		<variable name="row4_3a_y" value="248" />
+		<variable name="row5_1_y" value="255" />
+		<variable name="row5_1a_y" value="263" />
+		<variable name="row5_2_y" value="270" />
+		<variable name="row5_2a_y" value="278" />
+		<variable name="row5_3_y" value="285" />
+		<variable name="row5_3a_y" value="293" />
+		<variable name="row6_1_y" value="300" />
+		<variable name="row6_1a_y" value="308" />
+		<variable name="row6_2_y" value="315" />
+		<variable name="row6_2a_y" value="323" />
+		<variable name="row6_3_y" value="330" />
+		<variable name="row6_3a_y" value="338" />
+		<variable name="row7_1_y" value="345" />
+		<variable name="row7_1a_y" value="353" />
+		<variable name="row7_2_y" value="360" />
+		<variable name="row7_2a_y" value="368" />
+		<variable name="row7_3_y" value="375" />
+		<variable name="row7_3a_y" value="383" />
+		<variable name="row8_1_y" value="390" />
+		<variable name="row8_1a_y" value="398" />
+		<variable name="row8_2_y" value="405" />
+		<variable name="row8_2a_y" value="413" />
+		<variable name="row8_3_y" value="420" />
+		<variable name="row8_3a_y" value="428" />
+		<variable name="row9_1_y" value="435" />
+		<variable name="row_btn_y" value="408" />
+		<variable name="row_nav_y" value="444" />
+		<variable name="row_tz_y" value="96" />
+		<variable name="row_ab_ex_y" value="114" />
+		<variable name="row_ab_ex_list_y" value="84" />
+		<variable name="row_bs_console_y" value="150" />
+		<variable name="mb_row1_y" value="71" />
+		<variable name="mb_row2_y" value="116" />
+		<variable name="mb_row3_y" value="161" />
+		<variable name="mb_row4_y" value="206" />
+		<variable name="mb_row5_y" value="251" />
+		<variable name="mb_row6_y" value="296" />
+		<variable name="mb_row7_y" value="341" />
+		<variable name="mb_row8_y" value="386" />
+		<variable name="mb_row9_y" value="431" />
+		<variable name="bs_row1_y" value="186" />
+		<variable name="bs_row2_y" value="222" />
+		<variable name="bs_row3_y" value="258" />
+		<variable name="bs_row4_y" value="294" />
+		<variable name="bs_row5_y" value="330" />
+		<variable name="bs_row6_y" value="366" />
+		<variable name="bs_row7_y" value="402" />
 		<variable name="progressbar_x" value="0" />
-		<variable name="progressbar_y" value="304" />
-
-		<variable name="home_button_x" value="294" />
-		<variable name="back_button_x" value="92" />
-		<variable name="slideout_button_x" value="496" />
-
+		<variable name="progressbar_y" value="114" />
+		<variable name="home_button_x" value="118" />
+		<variable name="back_button_x" value="37" />
+		<variable name="slideout_button_x" value="198" />
 		<variable name="background" value="#222222FF" />
 		<variable name="darktransparent" value="#000000bb" />
 		<variable name="lightransparent" value="#00000033" />
@@ -462,82 +451,73 @@
 		<variable name="text_highlight" value="#03A9F4FF" />
 		<variable name="text_success" value="#68B60B" />
 		<variable name="text_fail" value="#FF0101" />
-		<variable name="highlight_color" value="#22222266"  />
+		<variable name="highlight_color" value="#22222266" />
 		<variable name="console_foreground" value="#E3E3E3FF" />
 		<variable name="linecolor" value="#383838FF" />
 		<variable name="warning" value="#F8F8A0FF" />
 		<variable name="error" value="#FF4040FF" />
 		<variable name="highlight" value="#03A9F4FF" />
-
 		<variable name="tab4_col1_x" value="0" />
-		<variable name="tab4_col2_x" value="200" />
-		<variable name="tab4_col3_x" value="400" />
-		<variable name="tab4_col4_x" value="600" />
-
-		<variable name="input_width" value="736" />
-		<variable name="input_backup_width" value="646" />
-		<variable name="input_encr_width" value="464" />
-		<variable name="input_height" value="40" />
-		<variable name="input_backup_y" value="237" />
-		<variable name="input_encr_y" value="417" />
-		<variable name="input_decr_y" value="597" />
-		<variable name="input_format_y" value="637" />
-		<variable name="input_rename_y" value="397" />
-		<variable name="input_terminal_y" value="657" />
-		<variable name="input_cursor_width" value="2" />
-		<variable name="input_backup_bg_height" value="864" />
-
-		<variable name="console_width" value="736" />
-		<variable name="console_height" value="720" />
-		<variable name="console_t_height" value="320" />
-		<variable name="console_action_height" value="600" />
-
-		<variable name="storage_width" value="464" />
+		<variable name="tab4_col2_x" value="80" />
+		<variable name="tab4_col3_x" value="160" />
+		<variable name="tab4_col4_x" value="240" />
+		<variable name="input_width" value="294" />
+		<variable name="input_backup_width" value="258" />
+		<variable name="input_encr_width" value="186" />
+		<variable name="input_height" value="15" />
+		<variable name="input_backup_y" value="89" />
+		<variable name="input_encr_y" value="156" />
+		<variable name="input_decr_y" value="224" />
+		<variable name="input_format_y" value="239" />
+		<variable name="input_rename_y" value="149" />
+		<variable name="input_terminal_y" value="246" />
+		<variable name="input_cursor_width" value="1" />
+		<variable name="input_backup_bg_height" value="324" />
+		<variable name="console_width" value="294" />
+		<variable name="console_height" value="270" />
+		<variable name="console_t_height" value="120" />
+		<variable name="console_action_height" value="225" />
+		<variable name="storage_width" value="186" />
 		<variable name="storage_heigt" value="244" />
-		<variable name="storage_indent_x" value="168" />
-		<variable name="storage_indent_y" value="494" />
-		<variable name="bg_storage_x" value="64" />
-		<variable name="bg_storage_y" value="394" />
-		<variable name="bg_encrypt_y" value="201" />
-		<variable name="db_left_x" value="293" />
-		<variable name="db_right_x" value="469" />
-		<variable name="db_y" value="753" />
-		<variable name="db_encrypt_y" value="559" />
-		<variable name="db_text1_y" value="554" />
-		<variable name="db_text2_y" value="594" />
-		<variable name="db_text2a_y" value="614" />
-		<variable name="db_text3_y" value="634" />
-		<variable name="db_text3a_y" value="654" />
-		<variable name="db_checkbox_y" value="674" />
-
-		<variable name="fileselector_width" value="768" />
-		<variable name="fileselector_install_height" value="864" />
-		<variable name="fileselector_part_height" value="420" />
-		<variable name="fileselector_wipe_height" value="360" />
-		<variable name="fileselector_mount_height" value="473" />
-		<variable name="fileselector_terminal_height" value="960" />
+		<variable name="storage_indent_x" value="67" />
+		<variable name="storage_indent_y" value="185" />
+		<variable name="bg_storage_x" value="26" />
+		<variable name="bg_storage_y" value="148" />
+		<variable name="bg_encrypt_y" value="75" />
+		<variable name="db_left_x" value="117" />
+		<variable name="db_right_x" value="188" />
+		<variable name="db_y" value="282" />
+		<variable name="db_encrypt_y" value="210" />
+		<variable name="db_text1_y" value="208" />
+		<variable name="db_text2_y" value="223" />
+		<variable name="db_text2a_y" value="230" />
+		<variable name="db_text3_y" value="238" />
+		<variable name="db_text3a_y" value="245" />
+		<variable name="db_checkbox_y" value="253" />
+		<variable name="fileselector_width" value="307" />
+		<variable name="fileselector_install_height" value="324" />
+		<variable name="fileselector_part_height" value="158" />
+		<variable name="fileselector_wipe_height" value="135" />
+		<variable name="fileselector_mount_height" value="177" />
+		<variable name="fileselector_terminal_height" value="360" />
 		<variable name="fileselector_separatorheight" value="1" />
 		<variable name="fileselector_spacing" value="0" />
-
-		<variable name="fastscroll_w" value="32" />
+		<variable name="fastscroll_w" value="13" />
 		<variable name="fastscroll_linew" value="1" />
-		<variable name="fastscroll_rectw" value="16" />
-		<variable name="fastscroll_recth" value="80" />
-
-		<variable name="listbox_tz_height" value="480" />
-		<variable name="listbox_tz_width" value="736" />
+		<variable name="fastscroll_rectw" value="6" />
+		<variable name="fastscroll_recth" value="30" />
+		<variable name="listbox_tz_height" value="180" />
+		<variable name="listbox_tz_width" value="294" />
 		<variable name="listbox_spacing" value="0" />
-
 		<variable name="textbox_spacing" value="6" />
-
-		<variable name="slider_x" value="72" />
-		<variable name="slider_y" value="1040" />
-		<variable name="slider_text_y" value="1060" />
-		<variable name="slidervalue_w" value="656" />
+		<variable name="slider_x" value="29" />
+		<variable name="slider_y" value="390" />
+		<variable name="slider_text_y" value="398" />
+		<variable name="slidervalue_w" value="262" />
 		<variable name="slidervalue_lineh" value="4" />
 		<variable name="slidervalue_padding" value="48" />
-		<variable name="slidervalue_sliderw" value="80" />
-		<variable name="slidervalue_sliderh" value="120" />
+		<variable name="slidervalue_sliderw" value="32" />
+		<variable name="slidervalue_sliderh" value="45" />
 	</variables>
 
 	<mousecursor>
@@ -912,49 +892,48 @@
 			</object>
 
 		</template>
+			<template name="keyboardtemplate">
 
-		<template name="keyboardtemplate">
+				<object type="image">
+					<placement x="0" y="260" />
+					<image resource="keyboard_shadow" />
+				</object>
 
-			<object type="image">
-				<placement x="0" y="694" />
-				<image resource="keyboard_shadow" />
-			</object>
-
-			<object type="keyboard">
-				<placement x="0" y="707" />
-				<layout resource1="keyboard1" resource2="keyboard2" resource3="keyboard3" resource4="keyboard4" />
-				<highlight color="%highlight_color%" />
-				<capshighlight color="%highlight_color%" />
-				<layout1>
-					<keysize height="118" width="80" />
-					<row1 key01="q" long01="1" key02="w" long02="2" key03="e" long03="3" key04="r" long04="4" key05="t" long05="5" key06="y" long06="6" key07="u" long07="7" key08="i" long08="8" key09="o" long09="9" key10="p" long10="0" />
-					<row2 key01="120:a" long01="@" key02="s" long02="#" key03="d" long03="$" key04="f" long04="%" key05="g" long05="&" key06="h" long06="*" key07="j" long07="-" key08="k" long08="+" key09="120:l" long09="_"/>
-					<row3 key01="120:layout2" key02="z" long02="!" key03="x" key04="c" long04="'" key05="v" long05=":" key06="b" long06=";" key07="n" long07="/" key08="m" long08="?" key09="120:c:8" />
-					<row4 key01="120:layout3" key02="/" key03="400: " key04="." key05="120:a:action" />
-				</layout1>
-				<layout2>
-					<keysize height="118" width="80" capslock="0" revert_layout="1"/>
-					<row1 key01="Q" long01="1" key02="W" long02="2" key03="E" long03="3" key04="R" long04="4" key05="T" long05="5" key06="Y" long06="6" key07="U" long07="7" key08="I" long08="8" key09="O" long09="9" key10="P" long10="0" />
-					<row2 key01="120:A" long01="@" key02="S" long02="#" key03="D" long03="$" key04="F" long04="%" key05="G" long05="&" key06="H" long06="*" key07="J" long07="-" key08="K" long08="+" key09="120:L" long09="_"/>
-					<row3 key01="120:layout1" key02="Z" long02="!" key03="X" key04="C" long04="'" key05="V" long05=":" key06="B" long06=";" key07="N" long07="/" key08="M" long08="?" key09="120:c:8" />
-					<row4 key01="120:layout3" key02="/" key03="400: " key04="." key05="120:action" />
-				</layout2>
-				<layout3>
-					<keysize height="118" width="80" />
-					<row1 key01="1" key02="2" key03="3" key04="4" key05="5" key06="6" key07="7" key08="8" key09="9" key10="0" />
-					<row2 key01="@" key02="#" key03="$" key04="%" key05="&" key06="*" key07="-" key08="+" key09="(" key10=")" />
-					<row3 key01="120:layout4" key02="!" key03="80:c:34" key04="'" key05=":" key06=";" key07="/" key08="?" key09="120:c:8" />
-					<row4 key01="120:layout1" key02="," key03="400: " key04="." key05="120:action" />
-				</layout3>
-				<layout4>
-					<keysize height="118" width="80" />
-					<row1 key01="~" key02="`" key03="|" key04="80:" key05="80:" key06="80:" key07="%" key08="80:" key09="{" key10="}" />
-					<row2 key01="80:" key02="80:" key03="80:" key04="80:" key05="80:" key06="^" key07="_" key08="=" key09="[" key10="]" />
-					<row3 key01="120:layout3" key02="81:" key03="80:" key04="80:" key05="80:" key06="\" key07="<" key08=">" key09="120:c:8" />
-					<row4 key01="120:layout1" key02="," key03="400: " key04="." key05="120:action" />
-				</layout4>
-			</object>
-		</template>
+				<object type="keyboard">
+					<placement x="0" y="265" />
+					<layout resource1="keyboard1" resource2="keyboard2" resource3="keyboard3" resource4="keyboard4" />
+					<highlight color="%highlight_color%" />
+					<capshighlight color="%highlight_color%" />
+					<layout1>
+						<keysize height="44" width="32" />
+						<row1 key01="q" long01="1" key02="w" long02="2" key03="e" long03="3" key04="r" long04="4" key05="t" long05="5" key06="y" long06="6" key07="u" long07="7" key08="i" long08="8" key09="o" long09="9" key10="p" long10="0" />
+						<row2 key01="43:a" long01="@" key02="s" long02="#" key03="d" long03="$" key04="f" long04="%" key05="g" long05="&" key06="h" long06="*" key07="j" long07="-" key08="k" long08="+" key09="43:l" long09="_"/>
+						<row3 key01="43:layout2" key02="z" long02="!" key03="x" key04="c" long04="'" key05="v" long05=":" key06="b" long06=";" key07="n" long07="/" key08="m" long08="?" key09="43:c:8" />
+						<row4 key01="43:layout3" key02="/" key03="160: " key04="." key05="43:a:action" />
+					</layout1>
+					<layout2>
+						<keysize height="44" width="32" capslock="0" revert_layout="1"/>
+						<row1 key01="Q" long01="1" key02="W" long02="2" key03="E" long03="3" key04="R" long04="4" key05="T" long05="5" key06="Y" long06="6" key07="U" long07="7" key08="I" long08="8" key09="O" long09="9" key10="P" long10="0" />
+						<row2 key01="43:A" long01="@" key02="S" long02="#" key03="D" long03="$" key04="F" long04="%" key05="G" long05="&" key06="H" long06="*" key07="J" long07="-" key08="K" long08="+" key09="43:L" long09="_"/>
+						<row3 key01="43:layout1" key02="Z" long02="!" key03="X" key04="C" long04="'" key05="V" long05=":" key06="B" long06=";" key07="N" long07="/" key08="M" long08="?" key09="43:c:8" />
+						<row4 key01="43:layout3" key02="/" key03="160: " key04="." key05="43:action" />
+					</layout2>
+					<layout3>
+						<keysize height="44" width="32" />
+						<row1 key01="1" key02="2" key03="3" key04="4" key05="5" key06="6" key07="7" key08="8" key09="9" key10="0" />
+						<row2 key01="@" key02="#" key03="$" key04="%" key05="&" key06="*" key07="-" key08="+" key09="(" key10=")" />
+						<row3 key01="43:layout4" key02="!" key03="32:c:14" key04="'" key05=":" key06=";" key07="/" key08="?" key09="43:c:8" />
+						<row4 key01="43:layout1" key02="," key03="160: " key04="." key05="43:action" />
+					</layout3>
+					<layout4>
+						<keysize height="44" width="32" />
+						<row1 key01="~" key02="`" key03="|" key04="32:" key05="32:" key06="32:" key07="%" key08="32:" key09="{" key10="}" />
+						<row2 key01="32:" key02="32:" key03="32:" key04="32:" key05="32:" key06="^" key07="_" key08="=" key09="[" key10="]" />
+						<row3 key01="43:layout3" key02="81:" key03="32:" key04="32:" key05="32:" key06="\" key07="<" key08=">" key09="43:c:8" />
+						<row4 key01="43:layout1" key02="," key03="160: " key04="." key05="43:action" />
+					</layout4>
+				</object>
+			</template>
 	</templates>
 
 	<pages>
