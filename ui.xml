@@ -459,13 +459,13 @@
 		<variable name="indent" value="0" />
 		<variable name="center_x" value="160" />
 		<variable name="col1_x" value="13" />
-		<variable name="col1_x_neg" value="768" />
-		<variable name="col1_x_indent" value="144" />
+		<variable name="col1_x_neg" value="307" />
+		<variable name="col1_x_indent" value="58" />
 		<variable name="col_col_center_x" value="119" />
 		<variable name="col2_x" value="160" />
 		<variable name="version_x" value="5" />
 		<variable name="battery_x" value="256" />
-		<variable name="battery_x_m" value="680" />
+		<variable name="battery_x_m" value="272" />
 		<variable name="time_x" value="314" />
 		<variable name="status_info_y" value="2" />
 		<variable name="ab_back_x" value="3" />
