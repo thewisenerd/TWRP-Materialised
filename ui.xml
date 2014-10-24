@@ -656,8 +656,8 @@
 		<variable name="fileselector_spacing" value="0" />
 		<variable name="fastscroll_w" value="13" />
 		<variable name="fastscroll_linew" value="1" />
-		<variable name="fastscroll_rectw" value="16" />
-		<variable name="fastscroll_recth" value="80" />
+		<variable name="fastscroll_rectw" value="6" />
+		<variable name="fastscroll_recth" value="30" />
 		<variable name="listbox_tz_height" value="180" />
 		<variable name="listbox_tz_width" value="294" />
 		<variable name="listbox_spacing" value="0" />
@@ -668,8 +668,8 @@
 		<variable name="slidervalue_w" value="262" />
 		<variable name="slidervalue_lineh" value="4" />
 		<variable name="slidervalue_padding" value="48" />
-		<variable name="slidervalue_sliderw" value="80" />
-		<variable name="slidervalue_sliderh" value="120" />
+		<variable name="slidervalue_sliderw" value="32" />
+		<variable name="slidervalue_sliderh" value="45" />
 	</variables>
 
 	<mousecursor>
