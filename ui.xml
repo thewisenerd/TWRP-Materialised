@@ -2,7 +2,7 @@
 
 <recovery>
 	<details>
-		<resolution width="800" height="1280" />
+		<resolution width="320" height="480" />
 		<author>z31s1g</author>
 		<title>TWRP Materialised Play</title>
 		<description>Material Design theme for TWRP recovery</description>
