@@ -441,12 +441,12 @@
 		<!--theme settings-->
 		<variable name="aromafm" value="0" persist="1" />
 		<variable name="show_cpu_temp" value="0" persist="1" />
-		<variable name="center_clock" value="0" persist="1" />
+		<variable name="center_clock" value="1" persist="1" />
 		<variable name="dialog_hide_folder" value="0" persist="1" />
 		<variable name="dialog_context" value="none" persist="1" />
 		<variable name="list_font" value="big" persist="1" />
 		<variable name="bookmark" value="0" persist="1" />
-		<variable name="navbar_sams" value="0" persist="1" />
+		<variable name="navbar_sams" value="1" persist="1" />
 		<variable name="menu_btn_solid" value="0" persist="1" />
 		<variable name="location_install" value="/sdcard/Download" persist="1" />
 		<variable name="location_install_image" value="/sdcard/Download" persist="1" />
@@ -647,7 +647,7 @@
 		<variable name="db_text3a_y" value="245" />
 		<variable name="db_checkbox_y" value="253" />
 		<variable name="fileselector_width" value="307" />
-		<variable name="fileselector_install_height" value="324" />
+		<variable name="fileselector_install_height" value="360" />
 		<variable name="fileselector_part_height" value="158" />
 		<variable name="fileselector_wipe_height" value="135" />
 		<variable name="fileselector_mount_height" value="177" />
@@ -1764,42 +1764,42 @@
 		<template name="keyboardtemplate">
 
 			<object type="image">
-				<placement x="0" y="694" />
+				<placement x="0" y="260" />
 				<image resource="keyboard_shadow" />
 			</object>
 
 			<object type="keyboard">
-				<placement x="0" y="707" />
+				<placement x="0" y="265" />
 				<layout resource1="keyboard1" resource2="keyboard2" resource3="keyboard3" resource4="keyboard4" />
 				<highlight color="%highlight_color%" />
 				<capshighlight color="%highlight_color%" />
 				<layout1>
-					<keysize height="118" width="80" />
+					<keysize height="44" width="32" />
 					<row1 key01="q" long01="1" key02="w" long02="2" key03="e" long03="3" key04="r" long04="4" key05="t" long05="5" key06="y" long06="6" key07="u" long07="7" key08="i" long08="8" key09="o" long09="9" key10="p" long10="0" />
-					<row2 key01="120:a" long01="@" key02="s" long02="#" key03="d" long03="$" key04="f" long04="%" key05="g" long05="&" key06="h" long06="*" key07="j" long07="-" key08="k" long08="+" key09="120:l" long09="_"/>
-					<row3 key01="120:layout2" key02="z" long02="!" key03="x" key04="c" long04="'" key05="v" long05=":" key06="b" long06=";" key07="n" long07="/" key08="m" long08="?" key09="120:c:8" />
-					<row4 key01="120:layout3" key02="/" key03="400: " key04="." key05="120:a:action" />
+					<row2 key01="43:a" long01="@" key02="s" long02="#" key03="d" long03="$" key04="f" long04="%" key05="g" long05="&" key06="h" long06="*" key07="j" long07="-" key08="k" long08="+" key09="43:l" long09="_"/>
+					<row3 key01="43:layout2" key02="z" long02="!" key03="x" key04="c" long04="'" key05="v" long05=":" key06="b" long06=";" key07="n" long07="/" key08="m" long08="?" key09="43:c:8" />
+					<row4 key01="43:layout3" key02="/" key03="160: " key04="." key05="43:a:action" />
 				</layout1>
 				<layout2>
-					<keysize height="118" width="80" capslock="0" revert_layout="1"/>
+					<keysize height="44" width="32" capslock="0" revert_layout="1"/>
 					<row1 key01="Q" long01="1" key02="W" long02="2" key03="E" long03="3" key04="R" long04="4" key05="T" long05="5" key06="Y" long06="6" key07="U" long07="7" key08="I" long08="8" key09="O" long09="9" key10="P" long10="0" />
-					<row2 key01="120:A" long01="@" key02="S" long02="#" key03="D" long03="$" key04="F" long04="%" key05="G" long05="&" key06="H" long06="*" key07="J" long07="-" key08="K" long08="+" key09="120:L" long09="_"/>
-					<row3 key01="120:layout1" key02="Z" long02="!" key03="X" key04="C" long04="'" key05="V" long05=":" key06="B" long06=";" key07="N" long07="/" key08="M" long08="?" key09="120:c:8" />
-					<row4 key01="120:layout3" key02="/" key03="400: " key04="." key05="120:action" />
+					<row2 key01="43:A" long01="@" key02="S" long02="#" key03="D" long03="$" key04="F" long04="%" key05="G" long05="&" key06="H" long06="*" key07="J" long07="-" key08="K" long08="+" key09="43:L" long09="_"/>
+					<row3 key01="43:layout1" key02="Z" long02="!" key03="X" key04="C" long04="'" key05="V" long05=":" key06="B" long06=";" key07="N" long07="/" key08="M" long08="?" key09="43:c:8" />
+					<row4 key01="43:layout3" key02="/" key03="160: " key04="." key05="43:action" />
 				</layout2>
 				<layout3>
-					<keysize height="118" width="80" />
+					<keysize height="44" width="32" />
 					<row1 key01="1" key02="2" key03="3" key04="4" key05="5" key06="6" key07="7" key08="8" key09="9" key10="0" />
 					<row2 key01="@" key02="#" key03="$" key04="%" key05="&" key06="*" key07="-" key08="+" key09="(" key10=")" />
-					<row3 key01="120:layout4" key02="!" key03="80:c:34" key04="'" key05=":" key06=";" key07="/" key08="?" key09="120:c:8" />
-					<row4 key01="120:layout1" key02="," key03="400: " key04="." key05="120:action" />
+					<row3 key01="43:layout4" key02="!" key03="32:c:14" key04="'" key05=":" key06=";" key07="/" key08="?" key09="43:c:8" />
+					<row4 key01="43:layout1" key02="," key03="160: " key04="." key05="43:action" />
 				</layout3>
 				<layout4>
-					<keysize height="118" width="80" />
-					<row1 key01="~" key02="`" key03="|" key04="80:" key05="80:" key06="80:" key07="%" key08="80:" key09="{" key10="}" />
-					<row2 key01="80:" key02="80:" key03="80:" key04="80:" key05="80:" key06="^" key07="_" key08="=" key09="[" key10="]" />
-					<row3 key01="120:layout3" key02="81:" key03="80:" key04="80:" key05="80:" key06="\" key07="<" key08=">" key09="120:c:8" />
-					<row4 key01="120:layout1" key02="," key03="400: " key04="." key05="120:action" />
+					<keysize height="44" width="32" />
+					<row1 key01="~" key02="`" key03="|" key04="32:" key05="32:" key06="32:" key07="%" key08="32:" key09="{" key10="}" />
+					<row2 key01="32:" key02="32:" key03="32:" key04="32:" key05="32:" key06="^" key07="_" key08="=" key09="[" key10="]" />
+					<row3 key01="43:layout3" key02="81:" key03="32:" key04="32:" key05="32:" key06="\" key07="<" key08=">" key09="43:c:8" />
+					<row4 key01="43:layout1" key02="," key03="160: " key04="." key05="43:action" />
 				</layout4>
 			</object>
 		</template>
@@ -2992,6 +2992,7 @@
 				<text>Select the theme you want to apply</text>
 			</object>
 
+			<!--
 			<object type="image">
 				<image resource="divider_wide" />
 				<placement x="%center_x%" y="%row_btn_y%" placement="4" />
@@ -3008,6 +3009,7 @@
 					<action function="overlay">dialog_storage</action>
 				</actions>
 			</object>
+			-->
 
 			<object type="action">
 				<actions>
@@ -3174,6 +3176,7 @@
 				<text>%tw_zip_location%</text>
 			</object>
 
+			<!--
 			<object type="image">
 				<image resource="hider_ab_ex_install" />
 				<placement x="%screen_w%" y="%row0_y%" placement="1" />
@@ -3195,6 +3198,7 @@
 					<action function="overlay">dialog_storage_install</action>
 				</actions>
 			</object>
+			-->
 
 			<object type="action">
 				<condition var1="tw_filename" op="modified" />
@@ -3354,6 +3358,8 @@
 				<text>%tw_zip_location%</text>
 			</object>
 
+
+			<!--
 			<object type="image">
 				<image resource="hider_ab_ex_install" />
 				<placement x="%screen_w%" y="%row0_y%" placement="1" />
@@ -3375,6 +3381,7 @@
 					<action function="overlay">dialog_storage_install</action>
 				</actions>
 			</object>
+			-->
 
 			<object type="action">
 				<condition var1="tw_filename" op="modified" />
@@ -4049,6 +4056,7 @@
 				<text>%tw_zip_location%</text>
 			</object>
 
+			<!--
 			<object type="image">
 				<image resource="hider_ab_ex_install" />
 				<placement x="%screen_w%" y="%row0_y%" placement="1" />
@@ -4070,6 +4078,7 @@
 					<action function="overlay">dialog_storage_install</action>
 				</actions>
 			</object>
+			-->
 
 			<object type="action">
 				<condition var1="tw_filename" op="modified" />
@@ -6850,6 +6859,7 @@
 				<text></text>
 			</object>
 
+			<!--
 			<object type="image">
 				<image resource="divider_wide" />
 				<placement x="%center_x%" y="%row_btn_y%" placement="4" />
@@ -6866,6 +6876,7 @@
 					<action function="overlay">dialog_storage_restore</action>
 				</actions>
 			</object>
+			-->
 
 			<object type="action">
 				<condition var1="tw_restore" op="modified" />
