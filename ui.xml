@@ -1764,42 +1764,42 @@
 		<template name="keyboardtemplate">
 
 			<object type="image">
-				<placement x="0" y="712" />
+				<placement x="0" y="445" />
 				<image resource="keyboard_shadow" />
 			</object>
 
 			<object type="keyboard">
-				<placement x="0" y="722" />
+				<placement x="0" y="751" />
 				<layout resource1="keyboard1" resource2="keyboard2" resource3="keyboard3" resource4="keyboard4" />
 				<highlight color="%highlight_color%" />
 				<capshighlight color="%highlight_color%" />
 				<layout1>
-					<keysize height="115" width="77" />
+					<keysize height="72" width="48" />
 					<row1 key01="q" long01="1" key02="w" long02="2" key03="e" long03="3" key04="r" long04="4" key05="t" long05="5" key06="y" long06="6" key07="u" long07="7" key08="i" long08="8" key09="o" long09="9" key10="p" long10="0" />
-					<row2 key01="115:a" long01="@" key02="s" long02="#" key03="d" long03="$" key04="f" long04="%" key05="g" long05="&" key06="h" long06="*" key07="j" long07="-" key08="k" long08="+" key09="115:l" long09="_"/>
-					<row3 key01="115:layout2" key02="z" long02="!" key03="x" key04="c" long04="'" key05="v" long05=":" key06="b" long06=";" key07="n" long07="/" key08="m" long08="?" key09="115:c:8" />
-					<row4 key01="115:layout3" key02="/" key03="384: " key04="." key05="115:a:action" />
+					<row2 key01="72:a" long01="@" key02="s" long02="#" key03="d" long03="$" key04="f" long04="%" key05="g" long05="&" key06="h" long06="*" key07="j" long07="-" key08="k" long08="+" key09="72:l" long09="_"/>
+					<row3 key01="72:layout2" key02="z" long02="!" key03="x" key04="c" long04="'" key05="v" long05=":" key06="b" long06=";" key07="n" long07="/" key08="m" long08="?" key09="72:c:8" />
+					<row4 key01="72:layout3" key02="/" key03="240: " key04="." key05="72:a:action" />
 				</layout1>
 				<layout2>
-					<keysize height="115" width="77" capslock="0" revert_layout="1"/>
+					<keysize height="72" width="48" capslock="0" revert_layout="1"/>
 					<row1 key01="Q" long01="1" key02="W" long02="2" key03="E" long03="3" key04="R" long04="4" key05="T" long05="5" key06="Y" long06="6" key07="U" long07="7" key08="I" long08="8" key09="O" long09="9" key10="P" long10="0" />
-					<row2 key01="115:A" long01="@" key02="S" long02="#" key03="D" long03="$" key04="F" long04="%" key05="G" long05="&" key06="H" long06="*" key07="J" long07="-" key08="K" long08="+" key09="115:L" long09="_"/>
-					<row3 key01="115:layout1" key02="Z" long02="!" key03="X" key04="C" long04="'" key05="V" long05=":" key06="B" long06=";" key07="N" long07="/" key08="M" long08="?" key09="115:c:8" />
-					<row4 key01="115:layout3" key02="/" key03="384: " key04="." key05="115:action" />
+					<row2 key01="72:A" long01="@" key02="S" long02="#" key03="D" long03="$" key04="F" long04="%" key05="G" long05="&" key06="H" long06="*" key07="J" long07="-" key08="K" long08="+" key09="72:L" long09="_"/>
+					<row3 key01="72:layout1" key02="Z" long02="!" key03="X" key04="C" long04="'" key05="V" long05=":" key06="B" long06=";" key07="N" long07="/" key08="M" long08="?" key09="72:c:8" />
+					<row4 key01="72:layout3" key02="/" key03="240: " key04="." key05="72:action" />
 				</layout2>
 				<layout3>
-					<keysize height="115" width="77" />
+					<keysize height="72" width="48" />
 					<row1 key01="1" key02="2" key03="3" key04="4" key05="5" key06="6" key07="7" key08="8" key09="9" key10="0" />
 					<row2 key01="@" key02="#" key03="$" key04="%" key05="&" key06="*" key07="-" key08="+" key09="(" key10=")" />
-					<row3 key01="115:layout4" key02="!" key03="77:c:34" key04="'" key05=":" key06=";" key07="/" key08="?" key09="115:c:8" />
-					<row4 key01="115:layout1" key02="," key03="384: " key04="." key05="115:action" />
+					<row3 key01="72:layout4" key02="!" key03="48:c:34" key04="'" key05=":" key06=";" key07="/" key08="?" key09="72:c:8" />
+					<row4 key01="72:layout1" key02="," key03="240: " key04="." key05="72:action" />
 				</layout3>
 				<layout4>
-					<keysize height="115" width="77" />
-					<row1 key01="~" key02="`" key03="|" key04="77:" key05="77:" key06="77:" key07="%" key08="77:" key09="{" key10="}" />
-					<row2 key01="77:" key02="77:" key03="77:" key04="77:" key05="77:" key06="^" key07="_" key08="=" key09="[" key10="]" />
-					<row3 key01="115:layout3" key02="77:" key03="77:" key04="77:" key05="77:" key06="\" key07="<" key08=">" key09="115:c:8" />
-					<row4 key01="115:layout1" key02="," key03="384: " key04="." key05="115:action" />
+					<keysize height="72" width="48" />
+					<row1 key01="~" key02="`" key03="|" key04="48:" key05="48:" key06="48:" key07="%" key08="48:" key09="{" key10="}" />
+					<row2 key01="48:" key02="48:" key03="48:" key04="48:" key05="48:" key06="^" key07="_" key08="=" key09="[" key10="]" />
+					<row3 key01="72:layout3" key02="48:" key03="48:" key04="48:" key05="48:" key06="\" key07="<" key08=">" key09="72:c:8" />
+					<row4 key01="72:layout1" key02="," key03="240: " key04="." key05="72:action" />
 				</layout4>
 			</object>
 		</template>
