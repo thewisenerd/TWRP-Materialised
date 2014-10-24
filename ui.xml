@@ -11,13 +11,13 @@
 
 	<resources>
 
-		<resource name="status" type="font" filename="RobotoRegular.ttf" size="11" fallback="Roboto-Medium-11" />
-		<resource name="caption" type="font" filename="RobotoMedium.ttf" size="9" fallback="Roboto-Regular-9" />
-		<resource name="body1" type="font" filename="RobotoRegular.ttf" size="11" fallback="Roboto-Regular-11" />
-		<resource name="body2" type="font" filename="RobotoMedium.ttf" size="11" fallback="Roboto-Medium-11" />
-		<resource name="subhead" type="font" filename="RobotoRegular.ttf" size="13" fallback="Roboto-Regular-13" />
-		<resource name="menu" type="font" filename="RobotoMedium.ttf" size="11" fallback="Roboto-Medium-11" />
-		<resource name="title" type="font" filename="RobotoRegular.ttf" size="15" fallback="Roboto-Medium-15" />
+		<resource name="status"  type="font" filename="Roboto-Medium.ttf"  size="11" fallback="Roboto-Medium-11" />
+		<resource name="caption" type="font" filename="Roboto-Regular.ttf" size="9"  fallback="Roboto-Regular-9" />
+		<resource name="body1"   type="font" filename="Roboto-Regular.ttf" size="11" fallback="Roboto-Regular-11" />
+		<resource name="body2"   type="font" filename="Roboto-Medium.ttf"  size="11" fallback="Roboto-Medium-11" />
+		<resource name="subhead" type="font" filename="Roboto-Regular.ttf" size="13" fallback="Roboto-Regular-13" />
+		<resource name="menu"    type="font" filename="Roboto-Medium.ttf"  size="11" fallback="Roboto-Medium-11" />
+		<resource name="title"   type="font" filename="Roboto-Medium.ttf"  size="15" fallback="Roboto-Medium-15" />
 
 		<!--resource name="status" type="font" filename="Roboto-Medium-32" />
 		<resource name="caption" type="font" filename="Roboto-Regular-24" />
